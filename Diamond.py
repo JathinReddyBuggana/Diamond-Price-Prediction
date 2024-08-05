@@ -8,7 +8,7 @@ st.image(r"ino_img.jpg",width=150)
 
 st.title("DIAMOND PRICE PREDICTION")
 
-model = pickle.load(open(r"C:\Users\jathi\machine learning folder\dt.pkl","rb"))
+model = pickle.load(open(r"dt.pkl","rb"))
 
 Carat = st.slider("carat",max_value=0.2,min_value=5.01)
 
